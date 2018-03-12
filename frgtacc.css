@@ -1,0 +1,67 @@
+#table
+{
+	background-color: #F0F8FF;
+			color: black;
+            font-family: narkisim;
+            min-height: 10px;
+            min-width: 10px;
+}
+#login
+{
+    width: 80px;
+    border-radius: 0px;
+    height: 25px;
+    color: black;
+}
+#login:hover
+{
+	background-color: #1E90FF;
+}
+#th1
+{
+    font-size: 20px;
+}
+#table1
+{
+	border: 1px;
+	position: relative;
+	left: 420px;
+	top: 150px;
+	background-color:#FFFAF0;
+}
+#th2
+{
+	color: blue;
+}
+input[type="text"]
+{
+	border-radius: 5px;
+	width: 320px;
+}
+ #a1, #a2
+        {
+        	color: lightblue;
+        	text-decoration: none;
+        	font-size: 12px;
+        }
+        #a1:hover, #a2:hover
+        {
+          text-decoration: underline;
+        }
+input[type="text"]:hover
+{
+	background-color: 	#FAFAD2;
+}
+#search:hover
+{
+	background-color: #1E90FF;
+}
+#cancel:hover
+{
+	background-color: #1E90FF;
+}
+#footer
+{
+    position: relative;
+    top: 350px;
+}

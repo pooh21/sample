@@ -1,0 +1,251 @@
+#table1
+		{
+			background-color: #F0F8FF;
+		}
+		.searchTerm 
+		{
+        width: 400px;
+        padding: 5px;
+        height: 15px;
+        }
+        #img1
+        {
+        	height: 30px;
+        }
+        #img2, #img3
+        {
+          height: 40px;
+          width: 50px;
+          text-decoration: none;
+        }
+        #img4, #img6
+        {
+          height: 42px;
+          width: 50px;
+          text-decoration: none;
+        }
+        #img6
+        {
+          height: 22px;
+          width: 30px;
+          text-decoration: none;
+          background-color: #F0F8FF;
+        }
+        input[type="submit"]
+        {
+        	background-color: black;
+        	color: white;
+        }
+        .dropdown, .dropdown1, .dropdown2{
+			position: relative; 
+			display: block;
+			
+		}
+		.dropdown-content, .dropdown1-content, .dropdown2-content{
+			display: none;
+			position: absolute;
+			min-width: 50px;
+			z-index: 1;
+			left: 0;
+		}
+		.dropdown-content a, .dropdown1-content a, .dropdown2-content a{
+			color: black;
+			padding: 15px 30px;
+			text-decoration: none;
+			background-color: #D3D3D3;
+			display: block;
+		}
+		.dropdown-content a:hover, .dropdown1-content a:hover, .dropdown2-content a:hover{
+			background-color: lightblue;
+		}
+    .dropdown1-content a:hover, .dropdown2-content a:hover{
+      background-color: white;
+    }
+		.dropdown:hover .dropdown-content {
+      position: absolute;
+			display: block;
+		}
+    .dropdown1:hover .dropdown1-content {
+      position: absolute;
+      bottom:1px;
+      display: block;
+    }
+    .dropdown2:hover .dropdown2-content {
+      position: absolute;
+      bottom: 1px;
+      display: block;
+    }
+		#button
+		{ 
+			background-color: #F0F8FF;
+			border: none;
+		}
+    #button1
+    {
+      background-color: grey;
+    }
+    #table2
+    {
+      position: relative;
+      top: 20px;
+      background-color: #FFFAF0;
+    }
+    #table3
+    {
+      position: relative;
+      top: 21px;
+      background-color: #FFFAF0;
+    }
+    #txt1
+    {
+      border-radius: 5px;
+      width: 700px;
+      height: 80px;
+    }
+    #submit3
+    {
+      height: 60px;
+      width: 60px;
+      background-color: lightblue;
+    }
+    #img7
+    {
+      height: 80px;
+      width: 80px;
+    }
+    #submit1, #submit2
+    {
+      border-radius: 5px;
+      width: 250px;
+      height: 50px;
+      background-color: lightblue;
+    }
+    #table4
+    {
+      position: relative;
+      top: 35px;
+      background-color: #FFFAF0; 
+    }
+    #img8, #img9, #img10, #img13, #img14, #img19
+    {
+      height: 550px;
+      width: 800px;
+    }
+    #table5
+    {
+      position: relative;
+      top: 40px;
+      background-color: #FFFAF0; 
+    }
+    #table6
+    {
+      position: relative;
+      top: 50px;
+      left: 170px;
+      background-color: #FFFAF0; 
+    }
+    #table7
+    {
+      position: relative;
+      top: 60px;
+      left: 170px;
+      background-color: #FFFAF0; 
+    }
+     #table8
+    {
+      position: relative;
+      top: 70px;
+      left: 170px;
+      background-color: #FFFAF0; 
+    }
+    #b1, #b2, #b3, #b4, #b5
+    {
+      border: none;
+      background-color:   #FFE4C4;
+      font-size: 20px;
+      text-decoration: none;
+    }
+     #b1 a, #b2 a, #b3 a, #b4 a, #b5 a
+    {
+      text-decoration: none;
+      color: black;
+    }
+    #img11, #img12, #img19
+    {
+      height: 50px;
+      width: 50px;
+    }
+    #img19:hover
+    {
+      height: 55px;
+      width: 55px;
+    }
+    #button
+    {
+      border:none;
+    }
+    #p
+    {
+      font-size: 20px;
+      text-decoration: none;
+    }
+    #table9
+    {
+      position: relative;
+      top: 10px; 
+      background-color: cyan;
+    }
+    #table9 a
+    {
+      text-decoration: none;
+    }
+    #img20
+    {
+      height: 160px;
+      width: 160px;
+    }
+    #table10 
+    {
+      position: relative;
+      top: 10px; 
+      background-color:   #FAF0E6;
+    }
+    #table10 a
+    {
+      text-decoration: none;
+    }
+    #img22
+    {
+      height: 80px;
+      width: 80px;
+    }
+    #table11
+    {
+      position: relative;
+      top: 12px;
+    }
+    #tr
+    {
+
+      background-color:   #FA8072;
+    }
+    #table10 
+    {
+      position: relative;
+      top: 10px; 
+      background-color:   #FAF0E6;
+    }
+    #table10 a
+    {
+      text-decoration: none;
+    }
+    #img22
+    {
+      height: 80px;
+      width: 80px;
+    }
+#footer
+{
+  position: relative;
+  top: 80px;
+}

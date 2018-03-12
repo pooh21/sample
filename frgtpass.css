@@ -1,0 +1,64 @@
+#table
+{
+	background-color: #F0F8FF;
+			color: black;
+            font-family: narkisim;
+            min-height: 10px;
+            min-width: 10px;
+}
+#login
+{
+    width: 80px;
+    border-radius: 0px;
+    height: 25px;
+    color: black;
+}
+#login:hover
+{
+	background-color: #1E90FF;
+}
+ #a1, #a2
+{
+    color: lightblue;
+    text-decoration: none;
+    font-size: 12px;
+}
+#a1:hover, #a2:hover
+{
+    text-decoration: underline;
+}
+#th1
+{
+    font-size: 20px;
+}
+#table1
+{
+    border: 1px;
+    position: absolute;
+    left: 520px;
+    top: 250px;
+    background-color:#FFFAF0;
+}
+input[type="text"]
+{
+    border-radius: 5px;
+    width: 300px;
+}
+#pass1, #pass2
+{
+    border-radius: 5px;
+    width: 300px;
+}
+#submit:hover
+{
+    background-color: #1E90FF;
+}
+#cancel:hover
+{
+    background-color: #1E90FF;
+}
+#footer
+{
+    position: relative;
+    top: 470px;
+}

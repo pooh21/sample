@@ -1,0 +1,286 @@
+#table1
+		{
+			background-color: #F0F8FF;
+		}
+		.searchTerm 
+		{
+        width: 400px;
+        padding: 5px;
+        height: 15px;
+        }
+        #img1
+        {
+        	height: 30px;
+        }
+        #img2, #img3
+        {
+          height: 40px;
+          width: 50px;
+          text-decoration: none;
+        }
+        #img4, #img6
+        {
+          height: 42px;
+          width: 50px;
+          text-decoration: none;
+        }
+        #img6
+        {
+          height: 22px;
+          width: 30px;
+          text-decoration: none;
+          background-color: #F0F8FF;
+        }
+        input[type="submit"]
+        {
+        	background-color: black;
+        	color: white;
+        }
+        .dropdown, .dropdown1, .dropdown2{
+			position: relative; 
+			display: block;
+			
+		}
+		.dropdown-content, .dropdown1-content, .dropdown2-content{
+			display: none;
+			position: absolute;	
+      z-index: 1;
+      
+		}
+		.dropdown-content a, .dropdown1-content a, .dropdown2-content a{
+			color: black;
+			padding: 15px 30px;
+			text-decoration: none;
+			background-color: white;
+			display: block;
+		}
+		.dropdown-content a:hover, .dropdown1-content a:hover, .dropdown2-content a:hover{
+      background-color: lightblue;
+    }
+    .dropdown:hover .dropdown-content {
+      position: absolute;
+      display: block;
+    }
+		#button
+		{ 
+			background-color: #F0F8FF;
+			border: none;
+		}
+     #table10 
+    {
+      position: relative;
+      top: 10px; 
+      background-color:   #FAF0E6;
+    }
+    #table10 a
+    {
+      text-decoration: none;
+    }
+    #img22
+    {
+      height: 80px;
+      width: 80px;
+    }
+
+    /*for cover and profile pic*/
+    #img7
+    {
+      height: 400px;
+      width: 900px;
+    }
+    #img8
+    {
+      height: 200px;
+      width: 200px;
+      position: relative;
+      bottom: 200px;
+    }
+    #table2
+    {
+      position: relative; 
+      left: 50px;
+    }
+
+    /*for updating profile pic*/
+    .update
+    {
+      position: relative; 
+      display: block;
+    }
+    .update-content
+    {
+      display: none;
+      position: absolute;
+    }
+    .update-content a
+    {
+      color: black;
+      padding: 15px 30px;
+      text-decoration: none;
+      display: block;
+      background-color: grey;
+      position: absolute;
+      right: 690px;
+      bottom: 1px;
+    }
+    .update-content a:hover{
+      background-color: lightblue;
+    }
+    .update:hover .update-content {
+      display: block;
+    }
+    #img9
+    {
+      position: relative;
+      display: block;
+      right: 850px;
+      bottom: 10px;
+      height: 50px;
+      width: 50px;
+    }
+
+    /*for timekine about and frinds*/
+     #table4
+    {
+      position: absolute;
+      top: 435px;
+      left: 262px;
+      border: 10px;
+      color: black;
+      width: 698px;
+      font-size: 30px;
+      background-color: #FFF8DC;
+    }
+    #table4 a
+    {
+      text-decoration: none;
+      color: black;
+    }
+
+    /*for name*/
+    .div1
+    {
+      position: absolute;
+      left: 280px;
+      top: 280px;
+      color: white;
+      font-size: 20px;
+    }
+    
+    /*for post table*/ 
+    #table5
+    {
+      position: absolute;
+      bottom: 100px;
+      left:60px;
+    }
+    #txt1
+    {
+      height: 60px;
+      width: 828px;
+      border-radius: 5px;
+    }
+    #submit3
+    {
+       height: 60px;
+      width: 60px;
+      background-color: lightblue;
+    }
+    
+
+     /* for upload photo and video*/
+    #table6
+    {
+      position: absolute;
+      bottom: 45px;
+      left: 250px;
+    }
+    #submit1, #submit2
+    {
+      border-radius: 5px;
+      width: 250px;
+      height: 50px;
+      background-color: lightblue;
+    }
+    
+
+    
+    /*for posts updated*/
+    #table7
+    {
+      position: relative;
+      left: 50px;
+      background-color: #FFFAF0; 
+    }
+    #img10
+    {
+      height: 550px;
+      width: 830px;
+    }
+     #b1
+    {
+      border: none;
+      background-color:   #FFE4C4;
+      font-size: 20px;
+      text-decoration: none;
+    }
+     #b1 a
+    {
+      text-decoration: none;
+      color: black;
+    }
+    #img11, #img12, #img19
+    {
+      height: 50px;
+      width: 50px;
+    }
+    #img19:hover
+    {
+      height: 55px;
+      width: 55px;
+    }
+    #p1
+    {
+      font-size: 20px;
+      text-decoration: none;
+    }
+    .dropdown1, .dropdown2{
+      position: relative; 
+      display: block;
+      
+    }
+    .dropdown1-content, .dropdown2-content{
+      display: none;
+      position: absolute;
+      min-width: 50px;
+      z-index: 1;
+      left: 0;
+    }
+    .dropdown1-content a, .dropdown2-content a{
+      color: black;
+      padding: 15px 30px;
+      text-decoration: none;
+      background-color: white;
+      display: block;
+    }
+    .dropdown1-content a:hover, .dropdown2-content a:hover{
+      background-color: lightblue;
+    }
+    .dropdown1-content a:hover, .dropdown2-content a:hover{
+      background-color: white;
+    }
+    .dropdown1:hover .dropdown1-content {
+      position: absolute;
+      bottom:1px;
+      display: block;
+    }
+    .dropdown2:hover .dropdown2-content {
+      position: absolute;
+      bottom: 1px;
+      display: block;
+    }
+    #table11
+    {
+      font-size: 20px;
+      background-color: #F8F8FF;
+    }

@@ -1,0 +1,95 @@
+        #table
+	    {
+			background-color: #F0F8FF;
+			color: black;
+            font-family: narkisim;
+            min-height: 10px;
+            min-width: 10px;	
+        }
+        #login
+        {
+          
+          width: 80px;
+          border-radius: 0px;
+          height: 25px;
+          color: black;
+        }
+        #login:hover
+        {
+            background-color: #1E90FF;
+        }
+        .div1
+        {
+        	
+        	position: absolute;
+        	right: 60px;
+        	display: block;
+
+        }
+        input[type="firstname"]
+        {
+        	border-radius: 8px;
+        	width: 200px;
+        	height: 30px;
+        }
+        input[type="lastname"]
+        {
+        	border-radius: 8px;
+        	width: 200px;
+        	height: 30px;
+        }
+        input[type="mobile"]
+        {
+        	border-radius: 8px;
+        	width: 420px;
+        	height: 30px;
+        }
+        #password
+        {
+        	border-radius: 8px;
+        	width: 420px;
+        	height: 30px;
+        }
+        input[type="date"]
+        {
+        	border-radius: 8px;
+        	width: 200px;
+        	height: 30px;
+        }
+        input[type="submit"]
+        {
+        	width: 200px;
+        	height: 30px;
+            background-color: #1E90FF;
+            border-radius: 8px;	
+        }
+        #img1
+        {
+          position: absolute;
+          right: 750px;
+          top: 50px;
+        }
+
+        #a1, #a2
+        {
+        	color: lightblue;
+        	text-decoration: none;
+        	font-size: 12px;
+        }
+        #a1:hover, #a2:hover
+        {
+          text-decoration: underline;
+        }
+        #th1
+        {
+        	font-size: 20px;
+        }
+        input[type="Email"]
+        {
+        	font-family: Times New Roman;
+        }
+        .footer
+        {
+            position: relative;
+            top: 520px;
+        }
