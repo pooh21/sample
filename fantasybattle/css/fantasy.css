@@ -1,0 +1,2091 @@
+*, html, body {
+	-ms-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-text-size-adjust: none;
+	text-rendering:optimizeLegibility;
+	-moz-osx-font-smoothing:grayscale;
+	background-color: #002947;
+	font-family: 'Archivo';
+	font-weight: 300;
+	font-style: normal;
+}
+.team-list-panel {
+		margin: 1rem 0;
+	}
+	.list-panel-left {
+	    width: 49%;
+	    display: inline-block;
+	    padding: 10px;
+	    border-right: 1px solid #015366;
+	}
+	.list-panel-right {
+	    width: 49%;
+	    display: inline-block;
+	    padding: 10px;
+	}
+	.list-panel-img {
+	    width: 23%;
+	    display: inline-block;
+	    vertical-align: top;
+	    vertical-align: middle;
+	}
+	.list-panel-data {
+	    width: 39%;
+	    display: inline-block;
+	    vertical-align: top;
+	    color: #fff;
+	    vertical-align: middle;
+	}
+	.list-panel-value {
+	    width: 34%;
+	    display: inline-block;
+	    text-align: right;
+	    color: #00B1DB;
+	    vertical-align: middle;
+	}
+	.list-panel-data p {
+	    font-size: 13px;
+	    margin-bottom: 5px;
+	}
+	.list-panel-data h6 {
+	    font-size: 12px;
+	    background-color: #00000080;
+	    text-align: center;
+	    padding: 3px 0;
+	    border-radius: 50px;
+	    margin-bottom: 0;
+	}
+	.list-panel-inner {
+		margin-bottom: 15px;
+	}
+	.list-panel-right .list-panel-value {
+    	text-align: left;
+    	width: 32%;
+	}
+	.list-panel-right .list-panel-img {
+    	text-align: left;
+    	margin-left: 6px;
+	}
+	.final-team-panel {
+	    background-color: #002a34;
+	    padding: 25px 10px;
+	    border-radius: 5px;
+	}
+	.team-member {
+	    background-color: transparent;
+	    width: 35%;
+	    display: inline-block;
+	    color: #fff;
+	    vertical-align: middle;
+	}
+	.score-board {
+	    width: 22%;
+	    display: inline-block;
+	    vertical-align: middle;
+	    text-align: center;
+	    background-color: #011d24;
+	    color: #fff;
+	    margin: 0 16px;
+	    text-align: center;
+	    padding: 6px 0px;
+	    border-radius: 5px;
+	}
+	.team-member {
+	    background-color: transparent;
+	    width: 35%;
+	    display: inline-block;
+	    color: #fff;
+	    vertical-align: middle;
+	}
+	.final-team {
+		margin: 1rem 0;
+	}
+	.team-member span {
+	    color: #fff;
+	    background-color: #82ABFA;
+	    padding: 6px 6px;
+	    border-radius: 50px;
+	    font-size: 14px;
+	    margin-left: 10px;
+	}
+	.team-member p {
+	    margin-bottom: 0;
+	    background-color: transparent;
+	    display: inline-block;
+	    width: 54%;
+	    font-size: 13px;
+	    vertical-align: middle;
+	}
+
+
+
+	.battle-3 .player-list-detail {
+		margin: 0 auto;
+	}
+	.footer-inner.footer-right {
+	    width: 58%;
+	    text-align: right;
+	    display: inline-block;
+	    padding: 0;
+	}
+	.footer-inner.footer-left {
+	    width: 40%;
+	    text-align: left;
+	    display: inline-block;
+	    padding: 0;
+	}
+	.top-strip {
+		margin: 2rem 0;
+	}
+	.back-arrow {
+	    width: 10%;
+	    display: inline-block;
+	    vertical-align: middle;
+	}
+	.fantasy-head {
+	    width: 65%;
+	    display: inline-block;
+	    vertical-align: middle;
+	}
+	.fantasy-head h2 {
+	    color: #fff;
+	    font-size: 22px;
+	    font-weight: bold;
+	    margin-bottom: 0;
+	}
+	.fantasy-head h2 span {
+	    color: #E47C29;
+	    font-style: italic;
+	    font-weight: bold;
+	}
+	.timer {
+	    width: 23%;
+	    display: inline-block;
+	    vertical-align: middle;
+	    text-align: right;
+	}
+	.timer span {
+	    font-size: 12px;
+	    color: #fff;
+	    background-color: #024B5C;
+	    padding: 8px 15px;
+	    border-radius: 5px;
+	}
+	.team-name-main {
+	    width: 100%;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+	.team-common {
+	    width: 39%;
+	    display: inline-block;
+	    font-size: 14px;
+	    color: #fff;
+	    vertical-align: middle;
+	}
+	.team-common img {
+	    margin: 0 10px;
+	}
+	.versus {
+	    width: 7%;
+	    display: inline-block;
+	    vertical-align: middle;
+	    color: #fff;
+	    font-size: 14px;
+	    background-color: #024B5C;
+	    border-radius: 50px;
+	    padding: 6px 5px;
+	    position: relative;
+	}
+	.versus:before {
+	    content: '';
+	    width: 40px;
+	    background-color: #024B5C;
+	    display: inline-block;
+	    position: absolute;
+	    top: 15px;
+	    left: -31px;
+	    right: auto;
+	    height: 2px;
+	}
+	.versus:after {
+	    content: '';
+	    width: 40px;
+	    background-color: #024B5C;
+	    display: inline-block;
+	    position: absolute;
+	    top: 15px;
+	    right: -31px;
+	    right: auto;
+	    height: 2px;
+	}
+	.player-list-sc {
+	    margin: 2rem 0;
+	}
+	.player-list-main {
+	    background-color: #013951;
+	    padding: 15px 15px;
+	    width: 100%;
+	    margin: 0 auto;
+	}
+	.player-list-detail {
+	    margin-right: 36px;
+	    display: inline-block;
+	    background-color: #002947;
+	    padding: 0;
+	    vertical-align: top;
+	    width: 47px;
+	    height: 54px;
+	    border-radius: 5px;
+	}
+	/*.player-list-detail img {
+		width: 100%;
+	}*/
+	.player-list-detail:last-child {
+	    margin-right: 0;
+	}
+	.player-inner {
+	    background-color: transparent;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+	.play-number {
+	    background-color: transparent;
+	    width: 25%;
+	    display: inline-block;
+	    margin: 1.5rem 0 0;
+	}
+	.play-number span {
+	    color: #fff;
+	    font-size: 14px;
+	    border-radius: 5px;
+	    padding: 7px 10px;
+	    background-color: #024B5C;
+	}
+	.opposite-name p {
+	    background-color: transparent;
+	    color: #fff;
+	    font-size: 14px;
+	    display: inline-block;
+	    margin-bottom: 0;
+	}
+	.opposite-name {
+	    width: 74%;
+	    display: inline-block;
+	    text-align: right;
+	    background-color: transparent;
+	}
+	.opposite-name span {
+	    color: #fff;
+	    background-color: #82ABFA;
+	    padding: 5px 7px;
+	    border-radius: 50px;
+	    font-size: 14px;
+	    margin-left: 10px;
+	}
+	.user-list-sc .play-number {
+    	margin-top: 0;
+    	margin-bottom: 1.5rem;
+    	text-align: right;
+	}
+	.footer-sc {
+		margin-bottom: 1rem;
+	}
+	.footer-inner {
+	    text-align: center;
+	    color: #fff;
+	    opacity: 0.6;
+	    padding: 0 101px;
+	}
+	.ground-player-1 {
+		background-image: url("../images/ground-player-1.png");
+		background-repeat: no-repeat;
+	}
+	.ground-player-2 {
+		background-image: url("../images/ground-player-2.png");
+		background-repeat: no-repeat;
+	}
+	.ground-img {
+	    background-image: url(../images/ground.png);
+	    background-repeat: no-repeat;
+	    background-size: 100% 100%;
+	    padding: 10px 40px 0;
+	}
+	.ground-player {
+	    background-color: #fff;
+	    width: 30%;
+	    display: inline-block;
+	    padding: 0 10px;
+	}
+	.ground-player-1 {
+	    background-image: url(../images/ground-player-1.png);
+	    background-repeat: no-repeat;
+	    padding-top: 7rem;
+	    float: left;
+	}
+	.ground-player h5 {
+	    background-color: #fff;
+	    font-size: 12px;
+	    color: #002947;
+	    text-transform: uppercase;
+	    margin-bottom: 2px;
+	}
+	.ground-player h4 {
+	    background-color: #fff;
+	    font-size: 12px;
+	    color: #002947;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	}
+	.ground-player p {
+	    font-size: 12px;
+	    background-color: #024B5C;
+	    display: inline-block;
+	    padding: 2px 8px;
+	    color: #fff;
+	    margin-bottom: 10px;
+	    border-radius: 50px;
+	}
+	.ground-player-2 {
+	    background-image: url(../images/ground-player-2.png);
+	    background-repeat: no-repeat;
+	    float: right;
+	    padding-top: 7rem;
+	}
+	.ground-img h3 {
+	    font-size: 14px;
+	    text-align: center;
+	    color: #FFFFFF;
+	    background-color: transparent;
+	}
+	.user-list-sc .opposite-name {
+		text-align: left;
+	}
+	.user-list-sc .opposite-name span {
+		margin-left: 0;
+		margin-right: 10px;
+	}
+.top-strip {
+	margin: 2rem 0;
+}
+.back-arrow {
+    width: 10%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.fantasy-head {
+    width: 65%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.fantasy-head h2 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.fantasy-head h2 span {
+    color: #E47C29;
+    font-style: italic;
+    font-weight: bold;
+}
+.timer {
+    width: 23%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+.timer span {
+    font-size: 12px;
+    color: #fff;
+    background-color: #024B5C;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+.team-name-main {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.team-common {
+    width: 39%;
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    vertical-align: middle;
+}
+.team-common img {
+    margin: 0 10px;
+}
+.versus {
+    width: 7%;
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 14px;
+    background-color: #024B5C;
+    border-radius: 50px;
+    padding: 6px 5px;
+    position: relative;
+}
+.versus:before {
+    content: '';
+    width: 40px;
+    background-color: #024B5C;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: -31px;
+    right: auto;
+    height: 2px;
+}
+.versus:after {
+    content: '';
+    width: 40px;
+    background-color: #024B5C;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: -31px;
+    right: auto;
+    height: 2px;
+}
+.player-list-sc {
+    margin: 2rem 0;
+}
+.player-list-main {
+    background-color: #013951;
+    padding: 15px 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+.player-list-detail {
+    margin-right: 36px;
+    display: inline-block;
+    background-color: #002947;
+    padding: 0;
+    vertical-align: top;
+    width: 47px;
+    height: 54px;
+    border-radius: 5px;
+}
+/*.player-list-detail img {
+	width: 100%;
+}*/
+.player-list-detail:last-child {
+    margin-right: 0;
+}
+.player-inner {
+    background-color: transparent;
+}
+.play-number {
+    background-color: transparent;
+    width: 25%;
+    display: inline-block;
+    margin: 1.5rem 0 0;
+}
+.play-number span {
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 7px 10px;
+    background-color: #024B5C;
+}
+.opposite-name p {
+    background-color: transparent;
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.opposite-name {
+    width: 74%;
+    display: inline-block;
+    text-align: right;
+    background-color: transparent;
+}
+.opposite-name span {
+    color: #fff;
+    background-color: #82ABFA;
+    padding: 5px 7px;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.user-list-sc .play-number {
+	margin-top: 0;
+	margin-bottom: 1.5rem;
+	text-align: right;
+}
+.footer-sc {
+	margin-bottom: 1rem;
+}
+.footer-inner {
+    text-align: center;
+    color: #fff;
+    opacity: 0.6;
+    padding: 0 101px;
+}
+.ground-player-1 {
+	background-image: url("../images/ground-player-1.png");
+	background-repeat: no-repeat;
+}
+.ground-player-2 {
+	background-image: url("../images/ground-player-2.png");
+	background-repeat: no-repeat;
+}
+.ground-img {
+    background-image: url(../images/ground.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 263px;
+    padding: 10px 40px 0;
+}
+.ground-player {
+    background-color: #fff;
+    width: 30%;
+    display: inline-block;
+    padding: 0 10px;
+}
+.ground-player-1 {
+    background-image: url(../images/ground-player-1.png);
+    background-repeat: no-repeat;
+    padding-top: 7rem;
+    float: left;
+}
+.ground-player h5 {
+    background-color: #fff;
+    font-size: 12px;
+    color: #002947;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+.ground-player h4 {
+    background-color: #fff;
+    font-size: 12px;
+    color: #002947;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.ground-player p {
+    font-size: 12px;
+    background-color: #024B5C;
+    display: inline-block;
+    padding: 2px 8px;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+.ground-player-2 {
+    background-image: url(../images/ground-player-2.png);
+    background-repeat: no-repeat;
+    float: right;
+    padding-top: 7rem;
+}
+.ground-img h3 {
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: transparent;
+}
+.user-list-sc .opposite-name {
+	text-align: left;
+}
+.user-list-sc .opposite-name span {
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+.ground-player-2.ground-question,
+.ground-player-1.ground-question {
+    background-image: url(../images/ground-question.png);
+        padding-top: 10rem;
+    background-size: contain;
+    background-color: transparent;
+}
+.footer-inner a {
+    text-align: right;
+    background-color: #E47C29;
+    padding: 10px 15px;
+    color: #fff;
+    opacity: 1;
+    border-radius: 5px;
+}
+.footer-new .footer-inner {
+	text-align: right;
+	opacity: 1;
+}
+.new-ground .ground-img {
+	background-image: url(../images/ground-new.png);
+}
+.new-ground .ground-img h3 {
+	margin-top: 3.5rem;
+}
+.battle-3 .player-list-detail {
+    width: 15%;
+    margin: 0 2px;
+    text-align: center;
+    background-color: transparent;
+}
+.timer.live span {
+    background-color: #FF4848;
+    font-weight: bold;
+}
+
+@media (min-width:481px) and (max-width: 767px) {
+	.team-list-panel {
+		margin: 1rem 0;
+	}
+	.list-panel-left {
+	    width: 49%;
+	    display: inline-block;
+	    padding: 10px;
+	    border-right: 1px solid #015366;
+	}
+	.list-panel-right {
+	    width: 49%;
+	    display: inline-block;
+	    padding: 10px;
+	}
+	.list-panel-img {
+	    width: 23%;
+	    display: inline-block;
+	    vertical-align: top;
+	    vertical-align: middle;
+	}
+	.list-panel-data {
+	    width: 39%;
+	    display: inline-block;
+	    vertical-align: top;
+	    color: #fff;
+	    vertical-align: middle;
+	}
+	.list-panel-value {
+	    width: 34%;
+	    display: inline-block;
+	    text-align: right;
+	    color: #00B1DB;
+	    vertical-align: middle;
+	}
+	.list-panel-data p {
+	    font-size: 13px;
+	    margin-bottom: 5px;
+	}
+	.list-panel-data h6 {
+	    font-size: 12px;
+	    background-color: #00000080;
+	    text-align: center;
+	    padding: 3px 0;
+	    border-radius: 50px;
+	    margin-bottom: 0;
+	}
+	.list-panel-inner {
+		margin-bottom: 15px;
+	}
+	.list-panel-right .list-panel-value {
+    	text-align: left;
+    	width: 32%;
+	}
+	.list-panel-right .list-panel-img {
+    	text-align: left;
+    	margin-left: 6px;
+	}
+	.final-team-panel {
+	    background-color: #002a34;
+	    padding: 25px 10px;
+	    border-radius: 5px;
+	}
+	.team-member {
+	    background-color: transparent;
+	    width: 35%;
+	    display: inline-block;
+	    color: #fff;
+	    vertical-align: middle;
+	}
+	.score-board {
+	    width: 22%;
+	    display: inline-block;
+	    vertical-align: middle;
+	    text-align: center;
+	    background-color: #011d24;
+	    color: #fff;
+	    margin: 0 16px;
+	    text-align: center;
+	    padding: 6px 0px;
+	    border-radius: 5px;
+	}
+	.team-member {
+	    background-color: transparent;
+	    width: 35%;
+	    display: inline-block;
+	    color: #fff;
+	    vertical-align: middle;
+	}
+	.final-team {
+		margin: 1rem 0;
+	}
+	.team-member span {
+	    color: #fff;
+	    background-color: #82ABFA;
+	    padding: 6px 6px;
+	    border-radius: 50px;
+	    font-size: 14px;
+	    margin-left: 10px;
+	}
+	.team-member p {
+	    margin-bottom: 0;
+	    background-color: transparent;
+	    display: inline-block;
+	    width: 54%;
+	    font-size: 13px;
+	    vertical-align: middle;
+	}
+
+
+
+	.battle-3 .player-list-detail {
+		margin: 0 auto;
+	}
+	.footer-inner.footer-right {
+	    width: 58%;
+	    text-align: right;
+	    display: inline-block;
+	    padding: 0;
+	}
+	.footer-inner.footer-left {
+	    width: 40%;
+	    text-align: left;
+	    display: inline-block;
+	    padding: 0;
+	}
+	.top-strip {
+		margin: 2rem 0;
+	}
+	.back-arrow {
+	    width: 10%;
+	    display: inline-block;
+	    vertical-align: middle;
+	}
+	.fantasy-head {
+	    width: 65%;
+	    display: inline-block;
+	    vertical-align: middle;
+	}
+	.fantasy-head h2 {
+	    color: #fff;
+	    font-size: 22px;
+	    font-weight: bold;
+	    margin-bottom: 0;
+	}
+	.fantasy-head h2 span {
+	    color: #E47C29;
+	    font-style: italic;
+	    font-weight: bold;
+	}
+	.timer {
+	    width: 23%;
+	    display: inline-block;
+	    vertical-align: middle;
+	    text-align: right;
+	}
+	.timer span {
+	    font-size: 12px;
+	    color: #fff;
+	    background-color: #024B5C;
+	    padding: 8px 15px;
+	    border-radius: 5px;
+	}
+	.team-name-main {
+	    width: 100%;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+	.team-common {
+	    width: 39%;
+	    display: inline-block;
+	    font-size: 14px;
+	    color: #fff;
+	    vertical-align: middle;
+	}
+	.team-common img {
+	    margin: 0 10px;
+	}
+	.versus {
+	    width: 7%;
+	    display: inline-block;
+	    vertical-align: middle;
+	    color: #fff;
+	    font-size: 14px;
+	    background-color: #024B5C;
+	    border-radius: 50px;
+	    padding: 6px 5px;
+	    position: relative;
+	}
+	.versus:before {
+	    content: '';
+	    width: 40px;
+	    background-color: #024B5C;
+	    display: inline-block;
+	    position: absolute;
+	    top: 15px;
+	    left: -31px;
+	    right: auto;
+	    height: 2px;
+	}
+	.versus:after {
+	    content: '';
+	    width: 40px;
+	    background-color: #024B5C;
+	    display: inline-block;
+	    position: absolute;
+	    top: 15px;
+	    right: -31px;
+	    right: auto;
+	    height: 2px;
+	}
+	.player-list-sc {
+	    margin: 2rem 0;
+	}
+	.player-list-main {
+	    background-color: #013951;
+	    padding: 15px 15px;
+	    width: 100%;
+	    margin: 0 auto;
+	}
+	.player-list-detail {
+	    margin-right: 36px;
+	    display: inline-block;
+	    background-color: #002947;
+	    padding: 0;
+	    vertical-align: top;
+	    width: 47px;
+	    height: 54px;
+	    border-radius: 5px;
+	}
+	/*.player-list-detail img {
+		width: 100%;
+	}*/
+	.player-list-detail:last-child {
+	    margin-right: 0;
+	}
+	.player-inner {
+	    background-color: transparent;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+	.play-number {
+	    background-color: transparent;
+	    width: 25%;
+	    display: inline-block;
+	    margin: 1.5rem 0 0;
+	}
+	.play-number span {
+	    color: #fff;
+	    font-size: 14px;
+	    border-radius: 5px;
+	    padding: 7px 10px;
+	    background-color: #024B5C;
+	}
+	.opposite-name p {
+	    background-color: transparent;
+	    color: #fff;
+	    font-size: 14px;
+	    display: inline-block;
+	    margin-bottom: 0;
+	}
+	.opposite-name {
+	    width: 74%;
+	    display: inline-block;
+	    text-align: right;
+	    background-color: transparent;
+	}
+	.opposite-name span {
+	    color: #fff;
+	    background-color: #82ABFA;
+	    padding: 5px 7px;
+	    border-radius: 50px;
+	    font-size: 14px;
+	    margin-left: 10px;
+	}
+	.user-list-sc .play-number {
+    	margin-top: 0;
+    	margin-bottom: 1.5rem;
+    	text-align: right;
+	}
+	.footer-sc {
+		margin-bottom: 1rem;
+	}
+	.footer-inner {
+	    text-align: center;
+	    color: #fff;
+	    opacity: 0.6;
+	    padding: 0 101px;
+	}
+	.ground-player-1 {
+		background-image: url("../images/ground-player-1.png");
+		background-repeat: no-repeat;
+	}
+	.ground-player-2 {
+		background-image: url("../images/ground-player-2.png");
+		background-repeat: no-repeat;
+	}
+	.ground-img {
+	    background-image: url(../images/ground.png);
+	    background-repeat: no-repeat;
+	    background-size: 100% 100%;
+	    padding: 10px 40px 0;
+	}
+	.ground-player {
+	    background-color: #fff;
+	    width: 30%;
+	    display: inline-block;
+	    padding: 0 10px;
+	}
+	.ground-player-1 {
+	    background-image: url(../images/ground-player-1.png);
+	    background-repeat: no-repeat;
+	    padding-top: 7rem;
+	    float: left;
+	}
+	.ground-player h5 {
+	    background-color: #fff;
+	    font-size: 12px;
+	    color: #002947;
+	    text-transform: uppercase;
+	    margin-bottom: 2px;
+	}
+	.ground-player h4 {
+	    background-color: #fff;
+	    font-size: 12px;
+	    color: #002947;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	}
+	.ground-player p {
+	    font-size: 12px;
+	    background-color: #024B5C;
+	    display: inline-block;
+	    padding: 2px 8px;
+	    color: #fff;
+	    margin-bottom: 10px;
+	    border-radius: 50px;
+	}
+	.ground-player-2 {
+	    background-image: url(../images/ground-player-2.png);
+	    background-repeat: no-repeat;
+	    float: right;
+	    padding-top: 7rem;
+	}
+	.ground-img h3 {
+	    font-size: 14px;
+	    text-align: center;
+	    color: #FFFFFF;
+	    background-color: transparent;
+	}
+	.user-list-sc .opposite-name {
+		text-align: left;
+	}
+	.user-list-sc .opposite-name span {
+		margin-left: 0;
+		margin-right: 10px;
+	}
+}
+
+@media (min-width:481px) and (max-width: 575px) {
+	.team-list-panel {
+		margin: 1rem 0;
+	}
+	.list-panel-left {
+	    width: 49%;
+	    display: inline-block;
+	    padding: 10px;
+	    border-right: 1px solid #015366;
+	}
+	.list-panel-right {
+	    width: 49%;
+	    display: inline-block;
+	    padding: 10px;
+	}
+	.list-panel-img {
+	    width: 23%;
+	    display: inline-block;
+	    vertical-align: top;
+	    vertical-align: middle;
+	}
+	.list-panel-data {
+	    width: 39%;
+	    display: inline-block;
+	    vertical-align: top;
+	    color: #fff;
+	    vertical-align: middle;
+	}
+	.list-panel-value {
+	    width: 34%;
+	    display: inline-block;
+	    text-align: right;
+	    color: #00B1DB;
+	    vertical-align: middle;
+	}
+	.list-panel-data p {
+	    font-size: 13px;
+	    margin-bottom: 5px;
+	}
+	.list-panel-data h6 {
+	    font-size: 12px;
+	    background-color: #00000080;
+	    text-align: center;
+	    padding: 3px 0;
+	    border-radius: 50px;
+	    margin-bottom: 0;
+	}
+	.list-panel-inner {
+		margin-bottom: 15px;
+	}
+	.list-panel-right .list-panel-value {
+    	text-align: left;
+    	width: 30%;
+	}
+	.list-panel-right .list-panel-img {
+    	text-align: left;
+    	margin-left: 6px;
+	}
+	.final-team-panel {
+	    background-color: #002a34;
+	    padding: 25px 10px;
+	    border-radius: 5px;
+	}
+	.team-member {
+	    background-color: transparent;
+	    width: 35%;
+	    display: inline-block;
+	    color: #fff;
+	    vertical-align: middle;
+	}
+	.score-board {
+	    width: 22%;
+	    display: inline-block;
+	    vertical-align: middle;
+	    text-align: center;
+	    background-color: #011d24;
+	    color: #fff;
+	    margin: 0 16px;
+	    text-align: center;
+	    padding: 6px 0px;
+	    border-radius: 5px;
+	}
+	.team-member {
+	    background-color: transparent;
+	    width: 34%;
+	    display: inline-block;
+	    color: #fff;
+	    vertical-align: middle;
+	}
+	.final-team {
+		margin: 1rem 0;
+	}
+	.team-member span {
+	    color: #fff;
+	    background-color: #82ABFA;
+	    padding: 6px 6px;
+	    border-radius: 50px;
+	    font-size: 14px;
+	    margin-left: 10px;
+	}
+	.team-member p {
+	    margin-bottom: 0;
+	    background-color: transparent;
+	    display: inline-block;
+	    width: 54%;
+	    font-size: 13px;
+	    vertical-align: middle;
+	}
+
+
+	.battle-3 .player-list-detail {
+		margin: 0 auto;
+	}
+	.footer-inner.footer-right {
+	    width: 58%;
+	    text-align: right;
+	    display: inline-block;
+	    padding: 0;
+	}
+	.footer-inner.footer-left {
+	    width: 40%;
+	    text-align: left;
+	    display: inline-block;
+	    padding: 0;
+	}
+	.top-strip {
+		margin: 2rem 0;
+	}
+	.back-arrow {
+	    width: 10%;
+	    display: inline-block;
+	    vertical-align: middle;
+	}
+	.fantasy-head {
+	    width: 65%;
+	    display: inline-block;
+	    vertical-align: middle;
+	}
+	.fantasy-head h2 {
+	    color: #fff;
+	    font-size: 22px;
+	    font-weight: bold;
+	    margin-bottom: 0;
+	}
+	.fantasy-head h2 span {
+	    color: #E47C29;
+	    font-style: italic;
+	    font-weight: bold;
+	}
+	.timer {
+	    width: 23%;
+	    display: inline-block;
+	    vertical-align: middle;
+	    text-align: right;
+	}
+	.timer span {
+	    font-size: 12px;
+	    color: #fff;
+	    background-color: #024B5C;
+	    padding: 8px 15px;
+	    border-radius: 5px;
+	}
+	.team-name-main {
+	    width: 100%;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+	.team-common {
+	    width: 39%;
+	    display: inline-block;
+	    font-size: 14px;
+	    color: #fff;
+	    vertical-align: middle;
+	}
+	.team-common img {
+	    margin: 0 10px;
+	}
+	.versus {
+	    width: 7%;
+	    display: inline-block;
+	    vertical-align: middle;
+	    color: #fff;
+	    font-size: 14px;
+	    background-color: #024B5C;
+	    border-radius: 50px;
+	    padding: 6px 5px;
+	    position: relative;
+	}
+	.versus:before {
+	    content: '';
+	    width: 38px;
+	    background-color: #024B5C;
+	    display: inline-block;
+	    position: absolute;
+	    top: 15px;
+	    left: -31px;
+	    right: auto;
+	    z-index: 0;
+	    height: 2px;
+	}
+	.versus:after {
+	    content: '';
+	    width: 38px;
+	    background-color: #024B5C;
+	    display: inline-block;
+	    position: absolute;
+	    top: 15px;
+	    right: -31px;
+	    right: auto;
+	    z-index: 0;
+	    height: 2px;
+	}
+	.player-list-sc {
+	    margin: 2rem 0;
+	}
+	.player-list-main {
+	    background-color: #013951;
+	    padding: 15px 15px;
+	    width: 100%;
+	    margin: 0 auto;
+	}
+	.player-list-detail {
+	    margin-right: 24px;
+	    display: inline-block;
+	    background-color: #002947;
+	    padding: 0;
+	    vertical-align: top;
+	    width: 47px;
+	    height: 54px;
+	    border-radius: 5px;
+	}
+	/*.player-list-detail img {
+		width: 100%;
+	}*/
+	.player-list-detail:last-child {
+	    margin-right: 0;
+	}
+	.player-inner {
+	    background-color: transparent;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+	.play-number {
+	    background-color: transparent;
+	    width: 30%;
+	    display: inline-block;
+	    margin: 1.5rem 0 0;
+	}
+	.play-number span {
+	    color: #fff;
+	    font-size: 14px;
+	    border-radius: 5px;
+	    padding: 7px 10px;
+	    background-color: #024B5C;
+	}
+	.opposite-name p {
+	    background-color: transparent;
+	    color: #fff;
+	    font-size: 14px;
+	    display: inline-block;
+	    margin-bottom: 0;
+	}
+	.opposite-name {
+	    width: 69%;
+	    display: inline-block;
+	    text-align: right;
+	    background-color: transparent;
+	}
+	.opposite-name span {
+	    color: #fff;
+	    background-color: #82ABFA;
+	    padding: 5px 7px;
+	    border-radius: 50px;
+	    font-size: 14px;
+	    margin-left: 10px;
+	}
+	.user-list-sc .play-number {
+    	margin-top: 0;
+    	text-align: right;
+    	margin-bottom: 1.5rem;
+	}
+	.footer-sc {
+		margin-bottom: 1rem;
+	}
+	.footer-inner {
+	    text-align: center;
+	    color: #fff;
+	    opacity: 0.6;
+	    padding: 0 80px;
+	}
+	.ground-player-1 {
+		background-image: url("../images/ground-player-1.png");
+		background-repeat: no-repeat;
+	}
+	.ground-player-2 {
+		background-image: url("../images/ground-player-2.png");
+		background-repeat: no-repeat;
+	}
+	.ground-img {
+	    background-image: url(../images/ground.png);
+	    background-repeat: no-repeat;
+	    background-size: 100% 100%;
+	    padding: 10px 40px 0;
+	}
+	.ground-player {
+	    background-color: #fff;
+	    width: 30%;
+	    display: inline-block;
+	    padding: 0 10px;
+	}
+	.ground-player-1 {
+	    background-image: url(../images/ground-player-1.png);
+	    background-repeat: no-repeat;
+	    padding-top: 8rem;
+	    float: left;
+	}
+	.ground-player h5 {
+	    background-color: #fff;
+	    font-size: 12px;
+	    color: #002947;
+	    text-transform: uppercase;
+	    margin-bottom: 2px;
+	}
+	.ground-player h4 {
+	    background-color: #fff;
+	    font-size: 12px;
+	    color: #002947;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	}
+	.ground-player p {
+	    font-size: 12px;
+	    background-color: #024B5C;
+	    display: inline-block;
+	    padding: 2px 8px;
+	    color: #fff;
+	    margin-bottom: 10px;
+	    border-radius: 50px;
+	}
+	.ground-player-2 {
+	    background-image: url(../images/ground-player-2.png);
+	    background-repeat: no-repeat;
+	    float: right;
+	    padding-top: 8rem;
+	}
+	.ground-img h3 {
+	    font-size: 14px;
+	    text-align: center;
+	    color: #FFFFFF;
+	    background-color: transparent;
+	}
+	.user-list-sc .opposite-name {
+		text-align: left;
+	}
+	.user-list-sc .opposite-name span {
+		margin-left: 0;
+		margin-right: 10px;
+	}
+}
+
+@media (min-width:360px) and (max-width: 480px) {
+	.team-list-panel {
+		margin: 1rem 0;
+	}
+	.list-panel-left {
+	    width: 49%;
+	    display: inline-block;
+	    padding: 10px;
+	    border-right: 1px solid #015366;
+	}
+	.list-panel-right {
+	    width: 49%;
+	    display: inline-block;
+	    padding: 10px;
+	}
+	.list-panel-img {
+	    width: 23%;
+	    display: inline-block;
+	    vertical-align: top;
+	    vertical-align: middle;
+	}
+	.list-panel-data {
+	    width: 39%;
+	    display: inline-block;
+	    vertical-align: top;
+	    color: #fff;
+	    vertical-align: middle;
+	}
+	.list-panel-value {
+	    width: 32%;
+	    display: inline-block;
+	    text-align: right;
+	    color: #00B1DB;
+	    vertical-align: middle;
+	}
+	.list-panel-data p {
+	    font-size: 11px;
+	    margin-bottom: 5px;
+	}
+	.list-panel-data h6 {
+	    font-size: 12px;
+	    background-color: #00000080;
+	    text-align: center;
+	    padding: 3px 0;
+	    border-radius: 50px;
+	    margin-bottom: 0;
+	}
+	.list-panel-inner {
+		margin-bottom: 15px;
+	}
+	.list-panel-right .list-panel-value {
+    	text-align: left;
+    	width: 28%;
+	}
+	.list-panel-right .list-panel-img {
+    	text-align: left;
+    	margin-left: 6px;
+	}
+	.final-team-panel {
+	    background-color: #002a34;
+	    padding: 25px 0px;
+	    border-radius: 5px;
+	    text-align: center;
+	}
+	.team-member {
+	    background-color: transparent;
+	    width: 35%;
+	    display: inline-block;
+	    color: #fff;
+	    vertical-align: middle;
+	}
+	.score-board {
+	    width: 33%;
+	    display: inline-block;
+	    vertical-align: middle;
+	    text-align: center;
+	    background-color: #011d24;
+	    color: #fff;
+	    margin: 0 5px;
+	    text-align: center;
+	    padding: 6px 0px;
+	    border-radius: 5px;
+	}
+	.team-member {
+	    background-color: transparent;
+	    width: 30%;
+	    display: inline-block;
+	    color: #fff;
+	    vertical-align: middle;
+	}
+	.final-team {
+		margin: 1rem 0;
+	}
+	.team-member span {
+	    color: #fff;
+	    background-color: #82ABFA;
+	    padding: 6px 6px;
+	    border-radius: 50px;
+	    font-size: 14px;
+	    margin-left: 10px;
+	}
+	.team-member p {
+	    margin-bottom: 0;
+	    background-color: transparent;
+	    display: inline-block;
+	    width: 54%;
+	    font-size: 13px;
+	    vertical-align: middle;
+	}
+
+
+	.battle-3 .player-list-detail {
+		margin: 0 auto;
+	}
+	.footer-inner.footer-right {
+	    width: 58%;
+	    text-align: right;
+	    display: inline-block;
+	}
+	.footer-inner.footer-left {
+	    width: 40%;
+	    text-align: left;
+	    display: inline-block;
+	}
+	.top-strip {
+		margin: 2rem 0;
+	}
+	.back-arrow {
+	    width: 10%;
+	    display: inline-block;
+	    vertical-align: middle;
+	}
+	.fantasy-head {
+	    width: 50%;
+	    display: inline-block;
+	    vertical-align: middle;
+	}
+	.fantasy-head h2 {
+	    color: #fff;
+	    font-size: 20px;
+	    font-weight: bold;
+	    margin-bottom: 0;
+	}
+	.fantasy-head h2 span {
+	    color: #E47C29;
+	    font-style: italic;
+	    font-weight: bold;
+	}
+	.timer {
+	    width: 37%;
+	    display: inline-block;
+	    vertical-align: middle;
+	    text-align: right;
+	}
+	.timer span {
+	    font-size: 12px;
+	    color: #fff;
+	    background-color: #024B5C;
+	    padding: 8px 15px;
+	    border-radius: 5px;
+	}
+	.team-name-main {
+	    width: 100%;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+	.team-common {
+	    width: 39%;
+	    display: inline-block;
+	    font-size: 14px;
+	    color: #fff;
+	    vertical-align: middle;
+	}
+	.team-common img {
+	    margin: 0 10px;
+	}
+	.versus {
+	    width: 10%;
+	    display: inline-block;
+	    vertical-align: middle;
+	    color: #fff;
+	    font-size: 14px;
+	    background-color: #024B5C;
+	    border-radius: 50px;
+	    padding: 6px 5px;
+	    position: relative;
+	}
+	.versus:before {
+	    content: '';
+	    width: 38px;
+	    background-color: #024B5C;
+	    display: inline-block;
+	    position: absolute;
+	    top: 15px;
+	    left: -31px;
+	    right: auto;
+	    z-index: 0;
+	    height: 2px;
+	}
+	.versus:after {
+	    content: '';
+	    width: 38px;
+	    background-color: #024B5C;
+	    display: inline-block;
+	    position: absolute;
+	    top: 15px;
+	    right: -31px;
+	    right: auto;
+	    z-index: 0;
+	    height: 2px;
+	}
+	.player-list-sc {
+	    margin: 2rem 0;
+	}
+	.player-list-main {
+	    background-color: #013951;
+	    padding: 15px 15px;
+	    width: 100%;
+	    margin: 0 auto;
+	}
+	.player-list-detail {
+	    margin-right: 4px;
+	    display: inline-block;
+	    background-color: #002947;
+	    padding: 0;
+	    vertical-align: top;
+	    width: 43px;
+	    height: 50px;
+	    border-radius: 5px;
+	}
+	/*.player-list-detail img {
+		width: 100%;
+	}*/
+	.player-list-detail:last-child {
+	    margin-right: 0;
+	}
+	.player-inner {
+	    background-color: transparent;
+        margin: 0 auto;
+    	text-align: center;
+	}
+	.play-number {
+	    background-color: transparent;
+	    width: 40%;
+	    display: inline-block;
+	    margin: 1.5rem 0 0;
+	}
+	.play-number span {
+	    color: #fff;
+	    font-size: 14px;
+	    border-radius: 5px;
+	    padding: 7px 10px;
+	    background-color: #024B5C;
+	}
+	.opposite-name p {
+	    background-color: transparent;
+	    color: #fff;
+	    font-size: 14px;
+	    display: inline-block;
+	    margin-bottom: 0;
+	}
+	.opposite-name {
+	    width: 58%;
+	    display: inline-block;
+	    text-align: right;
+	    background-color: transparent;
+	}
+	.opposite-name span {
+	    color: #fff;
+	    background-color: #82ABFA;
+	    padding: 5px 7px;
+	    border-radius: 50px;
+	    font-size: 14px;
+	    margin-left: 10px;
+	}
+	.user-list-sc .play-number {
+    	margin-top: 0;
+    	text-align: right;
+    	margin-bottom: 1.5rem;
+	}
+	.footer-sc {
+		margin-bottom: 1rem;
+	}
+	.footer-inner {
+	    text-align: center;
+	    color: #fff;
+	    opacity: 0.6;
+	    padding: 0 0;
+	    font-size: 14px;
+	}
+	.ground-player-1 {
+		background-image: url("../images/ground-player-1.png");
+		background-repeat: no-repeat;
+	}
+	.ground-player-2 {
+		background-image: url("../images/ground-player-2.png");
+		background-repeat: no-repeat;
+	}
+	.ground-img {
+	    background-image: url(../images/ground.png);
+	    background-repeat: no-repeat;
+	    background-size: 100% 100%;
+	    padding: 10px 5px 0;
+	}
+	.ground-player {
+	    background-color: #fff;
+	    width: 30%;
+	    display: inline-block;
+	    padding: 0 10px;
+	}
+	.ground-player-1 {
+	    background-image: url(../images/ground-player-1.png);
+	    background-repeat: no-repeat;
+	    background-size: contain;
+	    padding-top: 7rem;
+	    margin-top: 2rem;
+	    float: left;
+	}
+	.ground-player h5 {
+	    background-color: #fff;
+	    font-size: 12px;
+	    color: #002947;
+	    text-transform: uppercase;
+	    margin-bottom: 2px;
+	}
+	.ground-player h4 {
+	    background-color: #fff;
+	    font-size: 12px;
+	    color: #002947;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	}
+	.ground-player p {
+	    font-size: 12px;
+	    background-color: #024B5C;
+	    display: inline-block;
+	    padding: 2px 8px;
+	    color: #fff;
+	    margin-bottom: 5px;
+	    border-radius: 50px;
+	}
+	.ground-player-2 {
+	    background-image: url(../images/ground-player-2.png);
+	    background-repeat: no-repeat;
+	    float: right;
+	    background-size: contain;
+	    padding-top: 7rem;
+	    margin-top: 2rem;	
+	}
+	.ground-img h3 {
+	    font-size: 14px;
+	    text-align: center;
+	    color: #FFFFFF;
+	    background-color: transparent;
+	}
+	.user-list-sc .opposite-name {
+		text-align: left;
+	}
+	.user-list-sc .opposite-name span {
+		margin-left: 0;
+		margin-right: 10px;
+	}
+}
+
+@media (min-width:320px) and (max-width: 359px) {
+	.team-list-panel {
+		margin: 1rem 0;
+	}
+	.list-panel-left {
+	    width: 49%;
+	    display: inline-block;
+	    padding: 10px;
+	    border-right: 1px solid #015366;
+	}
+	.list-panel-right {
+	    width: 49%;
+	    display: inline-block;
+	    padding: 10px;
+	}
+	.list-panel-img {
+	    width: 23%;
+	    display: inline-block;
+	    vertical-align: top;
+	    vertical-align: middle;
+	}
+	.list-panel-data {
+	    width: 39%;
+	    display: inline-block;
+	    vertical-align: top;
+	    color: #fff;
+	    vertical-align: middle;
+	}
+	.list-panel-value {
+	    width: 32%;
+	    display: inline-block;
+	    text-align: right;
+	    color: #00B1DB;
+	    font-size: 14px;
+	    vertical-align: middle;
+	}
+	.list-panel-data p {
+	    font-size: 12px;
+	    margin-bottom: 5px;
+	}
+	.list-panel-data h6 {
+	    font-size: 11px;
+	    background-color: #00000080;
+	    text-align: center;
+	    padding: 3px 0;
+	    border-radius: 50px;
+	    margin-bottom: 0;
+	}
+	.list-panel-inner {
+		margin-bottom: 15px;
+	}
+	.list-panel-right .list-panel-value {
+    	text-align: left;
+    	width: 27%;
+	}
+	.list-panel-right .list-panel-img {
+    	text-align: left;
+    	margin-left: 6px;
+	}
+	.final-team-panel {
+	    background-color: #002a34;
+	    padding: 25px 0px;
+	    border-radius: 5px;
+	}
+	.team-member {
+	    background-color: transparent;
+	    width: 35%;
+	    display: inline-block;
+	    color: #fff;
+	    vertical-align: middle;
+	}
+	.score-board {
+	    width: 26%;
+	    display: inline-block;
+	    vertical-align: middle;
+	    text-align: center;
+	    background-color: #011d24;
+	    color: #fff;
+	    margin: 0 5px;
+	    text-align: center;
+	    font-size: 13px;
+	    padding: 6px 0px;
+	    border-radius: 5px;
+	}
+	.team-member {
+	    background-color: transparent;
+	    width: 34%;
+	    display: inline-block;
+	    color: #fff;
+	    vertical-align: middle;
+	}
+	.final-team {
+		margin: 1rem 0;
+	}
+	.team-member span {
+	    color: #fff;
+	    background-color: #82ABFA;
+	    padding: 4px 5px;
+	    border-radius: 50px;
+	    font-size: 14px;
+	    display: inline-block;
+	    margin-left: 0;
+	    width: 31%;
+	    vertical-align: middle;
+	    text-align: center;
+	    margin-left: 0px;
+	}
+	.team-member p {
+	    margin-bottom: 0;
+	    background-color: transparent;
+	    display: inline-block;
+	    width: 54%;
+	    font-size: 13px;
+	    vertical-align: middle;
+	}
+
+
+	.battle-3 .player-list-detail {
+		margin: 0 auto;
+	}
+	.footer-inner.footer-right {
+	    width: 58%;
+	    text-align: right;
+	    display: inline-block;
+	}
+	.footer-inner.footer-left {
+	    width: 40%;
+	    text-align: left;
+	    display: inline-block;
+	}
+	.top-strip {
+		margin: 2rem 0;
+	}
+	.back-arrow {
+	    width: 10%;
+	    display: inline-block;
+	    vertical-align: middle;
+	}
+	.fantasy-head {
+	    width: 50%;
+	    display: inline-block;
+	    vertical-align: middle;
+	}
+	.fantasy-head h2 {
+	    color: #fff;
+	    font-size: 20px;
+	    font-weight: bold;
+	    margin-bottom: 0;
+	}
+	.fantasy-head h2 span {
+	    color: #E47C29;
+	    font-style: italic;
+	    font-weight: bold;
+	}
+	.timer {
+	    width: 37%;
+	    display: inline-block;
+	    vertical-align: middle;
+	    text-align: right;
+	}
+	.timer span {
+	    font-size: 12px;
+	    color: #fff;
+	    background-color: #024B5C;
+	    padding: 8px 15px;
+	    border-radius: 5px;
+	}
+	.team-name-main {
+	    width: 100%;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+	.team-common {
+	    width: 39%;
+	    display: inline-block;
+	    font-size: 14px;
+	    color: #fff;
+	    vertical-align: middle;
+	}
+	.team-common img {
+	    margin: 0 10px;
+	}
+	.versus {
+	    width: 12%;
+	    display: inline-block;
+	    vertical-align: middle;
+	    color: #fff;
+	    font-size: 14px;
+	    background-color: #024B5C;
+	    border-radius: 50px;
+	    padding: 6px 5px;
+	    position: relative;
+	}
+	.versus:before {
+	    content: '';
+	    width: 38px;
+	    background-color: #024B5C;
+	    display: inline-block;
+	    position: absolute;
+	    top: 15px;
+	    left: -31px;
+	    right: auto;
+	    z-index: 0;
+	    height: 2px;
+	}
+	.versus:after {
+	    content: '';
+	    width: 38px;
+	    background-color: #024B5C;
+	    display: inline-block;
+	    position: absolute;
+	    top: 15px;
+	    right: -31px;
+	    right: auto;
+	    z-index: 0;
+	    height: 2px;
+	}
+	.player-list-sc {
+	    margin: 2rem 0;
+	}
+	.player-list-main {
+	    background-color: #013951;
+	    padding: 15px 5px;
+	    width: 100%;
+	    margin: 0 auto;
+	}
+	.player-list-detail {
+	    margin-right: 4px;
+	    display: inline-block;
+	    background-color: #002947;
+	    padding: 0;
+	    vertical-align: top;
+	    width: 40px;
+	    height: 50px;
+	    border-radius: 5px;
+	}
+	/*.player-list-detail img {
+		width: 100%;
+	}*/
+	.player-list-detail:last-child {
+	    margin-right: 0;
+	}
+	.player-inner {
+	    background-color: transparent;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+	.play-number {
+	    background-color: transparent;
+	    width: 43%;
+	    display: inline-block;
+	    margin: 1.5rem 0 0;
+	}
+	.play-number span {
+	    color: #fff;
+	    font-size: 14px;
+	    border-radius: 5px;
+	    padding: 7px 10px;
+	    background-color: #024B5C;
+	}
+	.opposite-name p {
+	    background-color: transparent;
+	    color: #fff;
+	    font-size: 14px;
+	    display: inline-block;
+	    margin-bottom: 0;
+	}
+	.opposite-name {
+	    width: 55%;
+	    display: inline-block;
+	    text-align: right;
+	    background-color: transparent;
+	}
+	.opposite-name span {
+	    color: #fff;
+	    background-color: #82ABFA;
+	    padding: 5px 7px;
+	    border-radius: 50px;
+	    font-size: 14px;
+	    margin-left: 10px;
+	}
+	.user-list-sc .play-number {
+    	margin-top: 0;
+    	text-align: right;
+    	margin-bottom: 1.5rem;
+	}
+	.footer-sc {
+		margin-bottom: 1rem;
+	}
+	.footer-inner {
+	    text-align: center;
+	    color: #fff;
+	    opacity: 0.6;
+	    padding: 0 0;
+	    font-size: 14px;
+	}
+	.ground-player-1 {
+		background-image: url("../images/ground-player-1.png");
+		background-repeat: no-repeat;
+	}
+	.ground-player-2 {
+		background-image: url("../images/ground-player-2.png");
+		background-repeat: no-repeat;
+	}
+	.ground-img {
+	    background-image: url(../images/ground.png);
+	    background-repeat: no-repeat;
+	    background-size: 100% 100%;
+	    padding: 10px 5px 0;
+	}
+	.ground-player {
+	    background-color: #fff;
+	    width: 30%;
+	    display: inline-block;
+	    padding: 0 10px;
+	}
+	.ground-player-1 {
+	    background-image: url(../images/ground-player-1.png);
+	    background-repeat: no-repeat;
+	    background-size: contain;
+	    padding-top: 6rem;
+	    float: left;
+	    margin-top: 2rem;
+	}
+	.ground-player h5 {
+	    background-color: #fff;
+	    font-size: 11px;
+	    color: #002947;
+	    text-transform: uppercase;
+	    margin-bottom: 2px;
+	}
+	.ground-player h4 {
+	    background-color: #fff;
+	    font-size: 11px;
+	    color: #002947;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	}
+	.ground-player p {
+	    font-size: 11px;
+	    background-color: #024B5C;
+	    display: inline-block;
+	    padding: 2px 8px;
+	    color: #fff;
+	    margin-bottom: 5px;
+	    border-radius: 50px;
+	}
+	.ground-player-2 {
+	    background-image: url(../images/ground-player-2.png);
+	    background-repeat: no-repeat;
+	    float: right;
+	    background-size: contain;
+	    padding-top: 6rem;
+	    margin-top: 2rem;
+	}
+	.ground-img h3 {
+	    font-size: 14px;
+	    text-align: center;
+	    color: #FFFFFF;
+	    background-color: transparent;
+	}
+	.user-list-sc .opposite-name {
+		text-align: left;
+	}
+	.user-list-sc .opposite-name span {
+		margin-left: 0;
+		margin-right: 10px;
+	}
+}
